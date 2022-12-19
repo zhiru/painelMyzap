@@ -65,7 +65,7 @@ class UsersController extends Controller
         $request->user()->can('usuarios-create') == false ? abort(403) : '';
 
         return view('users.create', [
-            'roles' => \Spatie\Permission\Models\Role::all();
+            'roles' => \Spatie\Permission\Models\Role::all()
         ]);
     }
 
