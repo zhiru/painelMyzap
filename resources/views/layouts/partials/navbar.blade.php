@@ -1,11 +1,5 @@
 <header class="topbar" data-navbarbg="skin6">
     <nav class="navbar top-navbar navbar-expand-md navbar-dark">
-        <div class="navbar-header" data-logobg="skin6">
-            <a class="navbar-brand" style="padding: 0 10px 0 20px !important;" href="{{ route('painel.index') }}">
-                <span style="padding-top:8px"> <img src="https://aireset.com.br/wp-content/logo_para_clientes/icone-roxo.png" style="width:95%;left:0px;"> </span>
-            </a>
-            <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
-        </div>
         <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
 
             <ul class="navbar-nav me-auto mt-md-0 "></ul>
@@ -47,6 +41,13 @@
     <div class="scroll-sidebar">
         <!-- Sidebar navigation-->
         <nav class="sidebar-nav">
+            <div class="navbar-header" data-logobg="skin6">
+                <a class="navbar-brand" href="{{ route('painel.index') }}">
+                    <span style="padding-top:8px"> <img src="https://aireset.com.br/wp-content/logo_para_clientes/icone-roxo.png" style="width:95%;left:0px;"> </span>
+                </a>
+                <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+            </div>
+
             <ul id="sidebarnav">
 
                 <li class="sidebar-item">
