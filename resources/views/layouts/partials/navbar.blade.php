@@ -2,7 +2,7 @@
     <nav class="navbar top-navbar navbar-expand-md navbar-dark">
         <div class="navbar-header" data-logobg="skin6">
             <a class="navbar-brand" style="padding: 0 10px 0 20px !important;" href="{{ route('painel.index') }}">
-                <span style="padding-top:8px"> <img src="/assets/images/logo-color.png" style="width:95%;left:0px;"> </span>
+                <span style="padding-top:8px"> <img src="https://aireset.com.br/wp-content/logo_para_clientes/icone-roxo.png" style="width:95%;left:0px;"> </span>
             </a>
             <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
         </div>
@@ -88,19 +88,19 @@
                     </a>
                 </li>
 
-               <!--  <li class="sidebar-item">
+                {{-- <li class="sidebar-item">
                     <a class="sidebar-link waves-effect waves-dark sidebar-link" href="#" onclick="Swal.fire('Em breve', '', 'info')" aria-expanded="false">
                         <i class="me-3 far fa-file-code" aria-hidden="true"></i>
                         <span class="hide-menu">Documentações</span>
                     </a>
-                </li>
- -->
-                <li class="sidebar-item">
+                </li> --}}
+
+                {{-- <li class="sidebar-item">
                     <a class="sidebar-link waves-effect waves-dark sidebar-link" href="https://documenter.getpostman.com/view/11074732/UVXdNJJp" target="_blank" aria-expanded="false">
                         <i class="me-3 fas fa-code" aria-hidden="true"></i>
                         <span class="hide-menu">Documentação API</span>
                     </a>
-                </li>
+                </li> --}}
 
                 <hr />
 

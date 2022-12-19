@@ -101,6 +101,39 @@
                     </div>
                     @endif
 
+                    <div class="form-group row">
+                        <!-- Form -->
+                        <div class="form-group mb-2 col-md-6">
+                            <label for="exampleInputPasswordCard4">Senha</label>
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon4"><span class="fas fa-unlock-alt"></span></span>
+                                <input type="password" placeholder="" class="form-control" name="password" value="{{ old('password') }}" required="required">
+                                @if($errors)
+                                    <span class="text-danger row" >{{ $errors->first('password') }}</span>
+                                @endif
+                            </div>
+                        </div>
+                        <!-- End of Form -->
+                        <!-- Form -->
+                        <div class="form-group mb-2 col-md-6">
+                            <label for="exampleInputPasswordCard4">Confirma senha</label>
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon5"><span class="fas fa-unlock-alt"></span></span>
+                                <input type="password" class="form-control" name="password_confirmation" value="{{ old('password_confirmation') }}" placeholder="" required="required">
+                                @if($errors)
+                                    <span class="text-danger row">{{ $errors->first('password_confirmation') }}</span>
+                                @endif
+                            </div>
+                        </div>
+                        <!-- End of Form -->
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="checkbox" value="" name="lgpd_accept" id="lgpd_accept" required="required">
+                            <label class="form-check-label" for="lgpd_accept">
+                                Eu aceito as regras do serviço <a href="#" class="text-primary font-weight-bold"> termos e condições</a>
+                            </label>
+                        </div>
+                    </div>
+
                     <div class="row">
 
                         <div class="mb-3  col-6">

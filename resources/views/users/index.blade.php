@@ -20,6 +20,14 @@
                         </nav>
                     </div>
                 </div>
+                <div class="col-md-6 col-4 align-self-center">
+                    @if( Auth::user()->roles()->first()->name == 'root')
+                        <div class="text-end upgrade-btn">
+                            <a href="{{ route('users.create') }}" class="btn btn-success d-none d-md-inline-block text-white" target="_self"> <i class="fab fa-whatsapp"></i> Criar</a>
+                        </div>
+                    @endif
+
+                </div>
             </div>
         </div>
 

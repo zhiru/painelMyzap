@@ -16,15 +16,15 @@
     <meta name="revisit-after" content="1" />
     <meta http-equiv="Content-Language" content="pt-br, en, fr, it">
     <meta name="format-detection" content="telephone=yes" />
-    <meta property="og:image" content="https://apibrasil.com.br/assets/images/facebook.png" />
-    <meta property="og:image:secure_url" content="https://apibrasil.com.br/assets/images/facebook.png" />
+    <meta property="og:image" content="https://aireset.com.br/assets/images/facebook.png" />
+    <meta property="og:image:secure_url" content="https://aireset.com.br/assets/images/facebook.png" />
     <meta property="og:image:alt" content="API do WhatsApp - Para você iniciar seus projetos" />
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:title" content="Serviços de API do WhatsApp para você iniciar seus projetos" />
     <meta property="og:description" content="Utilize API do WhatsApp para enviar notificações, e mensagens ilimitadas, e tornar os seus sistemas mais inteligentes com mensagens pelo WhatsApp" />
-    <meta property="og:url" content="http://apibrasil.com.br" />
+    <meta property="og:url" content="http://aireset.com.br" />
     <meta property="og:site_name" content="API do WhatsApp - Para você iniciar seus projetos" />
     <meta property="fb:app_id" content="1777353288971822" />
     <meta property="og:locale" content="Pt_BR" />
@@ -69,7 +69,7 @@
                     <div class="nav-inner">
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand" href="#hero">
-                                <img src="assets/images/logo-color.png" alt="Logo">
+                                <img src="https://aireset.com.br/wp-content/logo_para_clientes/logo-final-05.png" alt="Logo">
                             </a>
                             <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -90,6 +90,9 @@
                                         <a href="#pricing" aria-label="Toggle navigation">Preços</a>
                                     </li>
                                     <li class="nav-item">
+                                        <a href="/painel" aria-label="Toggle navigation">Painel de controle</a>
+                                    </li>
+                                    {{-- <li class="nav-item">
                                         <a class="dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse" data-bs-target="#submenu-1-1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                             Painel de controle
                                         </a>
@@ -98,9 +101,9 @@
                                             <li class="nav-item"><a href="/register">Cadastrar</a></li>
                                             <li class="nav-item"><a href="https://documenter.getpostman.com/view/11074732/UVXdNJJp" target="_blank">Documentação</a></li>
                                         </ul>
-                                    </li>
+                                    </li> --}}
                                     <li class="nav-item">
-                                        <a href="https://wa.me/5531994359434" target="_blank" aria-label="Toggle navigation">Contato</a>
+                                        <a href="https://wa.me/5543996583266" target="_blank" aria-label="Toggle navigation">Contato</a>
                                     </li>
                                 </ul>
                             </div>
@@ -211,10 +214,10 @@
                             <span>PARCEIROS PROMOCIONAIS </span>
                             Conheça os serviços de API Gratuitos oferecidos pelo nosso parceiro
                         </h2>
-                        <p>Nosso parceiro de negocíos <strong>apibrasil</strong> oferece serviços de API incríveis e gratuitos para você começar.</p>
+                        {{-- <p>Nosso parceiro de negocíos <strong>apibrasil</strong> oferece serviços de API incríveis e gratuitos para você começar.</p>
                         <div class="button">
                             <a href="https://apibrasil.com.br" target="_blank" class="btn">Conhecer nosso parceiro</a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">
@@ -273,7 +276,7 @@
                                             <li class="text-decoration-line-through">1X Alocação de recursos</li>
                                         </ul>
                                         <div class="button">
-                                            <a class="btn" href="https://wa.me/5531994359434">Começar agora</a>
+                                            <a class="btn" href="https://wa.me/5543996583266">Começar agora</a>
                                         </div>
                                     </div>
                                 </div>
@@ -302,7 +305,7 @@
                                             <li>1X Alocação de recursos</li>
                                         </ul>
                                         <div class="button">
-                                            <a class="btn" href="https://wa.me/5531994359434">Começar agora</a>
+                                            <a class="btn" href="https://wa.me/5543996583266">Começar agora</a>
                                         </div>
                                     </div>
                                 </div>
@@ -331,7 +334,7 @@
                                             <li>2X Alocação de recursos</li>
                                         </ul>
                                         <div class="button">
-                                            <a class="btn" href="https://wa.me/5531994359434">Começar agora</a>
+                                            <a class="btn" href="https://wa.me/5543996583266">Começar agora</a>
                                         </div>
                                     </div>
                                 </div>
@@ -360,7 +363,7 @@
                                             <li>10X Alocação de recursos</li>
                                         </ul>
                                         <div class="button">
-                                            <a class="btn bg-primary text-white" href="https://wa.me/5531994359434">Começar agora</a>
+                                            <a class="btn bg-primary text-white" href="https://wa.me/5543996583266">Começar agora</a>
                                         </div>
                                     </div>
                                 </div>
@@ -383,7 +386,7 @@
                         </h2>
                         <p>Nosso serviço de <strong>CRON Inteligente </strong> verifica o status das suas sessões e a saúde dos seus dispositivos conectados.</p>
                         <div class="button">
-                            <a href="https://wa.me/5531994359434" target="_blank" class="btn">Contratar agora</a>
+                            <a href="https://wa.me/5543996583266" target="_blank" class="btn">Contratar agora</a>
                         </div>
                     </div>
                 </div>
@@ -467,7 +470,7 @@
                         <h3>Somos especializados em fornecer suporte a Servidor Dedicado, Colocation, Servidor Privado Virtual,
                             Hospedagem na Web, Nomes de Domínio e SSL</h3>
                         <div class="button">
-                            <a href="https://wa.me/5531994359434" target="_blank" class="btn">Gostei, contratar agora</a>
+                            <a href="https://wa.me/5543996583266" target="_blank" class="btn">Gostei, contratar agora</a>
                         </div>
                     </div>
                 </div>
@@ -489,7 +492,7 @@
                     </div>
                     <div class="col-lg-6 col-md-5 col-12">
                         <div class="button">
-                            <a href="https://wa.me/5531994359434" target="_blank"class="btn">Contratar agora um plano
+                            <a href="https://wa.me/5543996583266" target="_blank"class="btn">Contratar agora um plano
                             </a>
                         </div>
                     </div>
@@ -514,7 +517,7 @@
                                 </div>
                                 <p>Desenvolvido com MyZAP 2.0, a API do WhatsApp mais barata e simples do Brasil.
                                 </p>
-                                <a class="call" href="https://wa.me/5531994359434"><i class="lni lni-phone-set"></i> +55 (31) 99536 0492</a>
+                                <a class="call" href="https://wa.me/5543996583266"><i class="lni lni-phone-set"></i> +55 (31) 99536 0492</a>
                                 <div class="payments">
                                     <img src="assets/images/footer/cards.png" alt="#">
                                 </div>
@@ -522,8 +525,8 @@
                                     <li><a href="https://github.com/jhowbhz"><i class="lni lni-github"></i></a></li>
                                     <li><a href="https://www.youtube.com/channel/UC-_mG5VU7maEKt5rUj8tSbQ"><i class="lni lni-youtube"></i></a></li>
                                 </ul>
-                                <p class="copyright-text">© Powered by <a href="https://apibrasil.com.br" target="_blank">APIBrasil</a></p>
-                                44.959.669/0001-80
+                                <p class="copyright-text">© Powered by <a href="https://aireset.com.br" target="_blank">Aireset</a></p>
+                                14.736.563/0001-57
                             </div>
                             <!-- End Single Widget -->
                         </div>
@@ -533,7 +536,7 @@
                                 <h3>Páginas</h3>
                                 <ul>
                                     <li><a href="#pricing">Preços <span style="margin-left: 4px;" class="badge bg-success rounded text-white">Promo</span></a></li>
-                                    <li><a href="https://wa.me/5531994359434" target="_blank">Ajuda</a></li>
+                                    <li><a href="https://wa.me/5543996583266" target="_blank">Ajuda</a></li>
                                 </ul>
                                 <h4 class="mt-40 mb-20 text-white" style="font-size: 18px;">Atalhos</h4>
                                 <ul>
@@ -552,8 +555,8 @@
                                 </ul>
                                 <h4 class="mt-40 mb-20 text-white" style="font-size: 18px;">Suporte</h4>
                                 <ul>
-                                    <li><a href="https://wa.me/5531994359434">Ticket suporte</a></li>
-                                    <li><a href="https://status.apibrasil.com.br/" target="_blank">Status servidores</a></li>
+                                    <li><a href="https://wa.me/5543996583266">Ticket suporte</a></li>
+                                    <li><a href="https://statusmyzap.aireset.com.br/" target="_blank">Status servidores</a></li>
                                 </ul>
                             </div>
                             <!-- End Single Widget -->

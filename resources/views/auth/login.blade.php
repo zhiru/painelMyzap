@@ -106,12 +106,12 @@
                                         <button type="submit" class="btn btn-block btn-primary">Fazer login</button>
                                         <a class="btn btn-block btn-secondary" href="{{ route('home.index') }}" >Voltar</a>
                                     </form>
-                                    <div class="d-flex justify-content-center align-items-center mt-4">
+                                    {{-- <div class="d-flex justify-content-center align-items-center mt-4">
                                         <span class="font-weight-normal">
                                             Não é registrado?
                                             <a href="/register" class="font-weight-bold">Criar uma nova conta</a>
                                         </span>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
