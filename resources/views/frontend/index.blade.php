@@ -69,7 +69,7 @@
                     <div class="nav-inner">
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand" href="#hero">
-                                <img src="https://aireset.com.br/wp-content/logo_para_clientes/logo-final-05.png" alt="Logo">
+                                <img src="https://aireset.com.br/wp-content/logo_para_clientes/logo-final-11.png" alt="Logo">
                             </a>
                             <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -512,7 +512,7 @@
                             <div class="single-footer f-about">
                                 <div class="logo">
                                     <a href="index.html">
-                                        <img src="assets/images/logo-white.png" alt="#">
+                                        <img src="https://aireset.com.br/wp-content/logo_para_clientes/logo-final-11.png" alt="">
                                     </a>
                                 </div>
                                 <p>Desenvolvido com MyZAP 2.0, a API do WhatsApp mais barata e simples do Brasil.

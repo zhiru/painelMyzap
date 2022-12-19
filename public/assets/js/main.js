@@ -10,7 +10,7 @@
         document.querySelector('.preloader').style.display = 'none';
     }
 
-    
+
     // WOW active
     new WOW().init();
 
@@ -25,10 +25,10 @@
         var logo = document.querySelector('.navbar-brand img')
         if (window.pageYOffset > sticky) {
           header_navbar.classList.add("sticky");
-          logo.src = 'assets/images/logo-color.png';
+          logo.src = 'https://aireset.com.br/wp-content/logo_para_clientes/logo-final-05.png';
         } else {
           header_navbar.classList.remove("sticky");
-          logo.src = 'assets/images/logo-white.png';
+          logo.src = 'https://aireset.com.br/wp-content/logo_para_clientes/logo-final-11.png';
         }
 
         // show or hide the back-top-top button
