@@ -15,7 +15,7 @@
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="#">Meu perfil</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Editar usuário</li>
+                                <li class="breadcrumb-item active" aria-current="page">Adicionar usuário</li>
                             </ol>
                         </nav>
                     </div>
@@ -34,7 +34,7 @@
                     @csrf
                     <div class="mb-3 col-3">
                         <label for="name" class="form-label">Nome</label>
-                        <input value="{{ $user->name }}" type="text" class="form-control" name="name" placeholder="Name" required>
+                        <input value="" type="text" class="form-control" name="name" placeholder="Name" required>
 
                         @if ($errors->has('name'))
                         <span class="text-danger text-left">{{ $errors->first('name') }}</span>
@@ -42,7 +42,7 @@
                     </div>
                     <div class="mb-3 col-3">
                         <label for="email" class="form-label">E-mail</label>
-                        <input value="{{ $user->email }}" type="email" class="form-control" name="email" placeholder="Email address" required>
+                        <input value="" type="email" class="form-control" name="email" placeholder="Email address" required>
                         @if ($errors->has('email'))
                         <span class="text-danger text-left">{{ $errors->first('email') }}</span>
                         @endif
@@ -50,7 +50,7 @@
 
                     <div class="mb-3  col-3">
                         <label for="cellphone" class="form-label">Celular</label>
-                        <input value="{{ $user->cellphone }}" type="text" class="form-control" id="cellphone" name="cellphone" placeholder="">
+                        <input value="" type="text" class="form-control" id="cellphone" name="cellphone" placeholder="">
                         @if ($errors->has('cellphone'))
                         <span class="text-danger text-left">{{ $errors->first('cellphone') }}</span>
                         @endif
@@ -58,7 +58,7 @@
 
                     <div class="mb-3 col-3">
                         <label for="cpf" class="form-label">CPF</label>
-                        <input value="{{ $user->cpf }}" type="text" class="form-control" id="cpf" name="cpf" placeholder="">
+                        <input value="" type="text" class="form-control" id="cpf" name="cpf" placeholder="">
                         @if ($errors->has('cpf'))
                         <span class="text-danger text-left">{{ $errors->first('cpf') }}</span>
                         @endif
@@ -66,7 +66,7 @@
 
                     <div class="mb-3 col-3">
                         <label for="username" class="form-label">Usuário</label>
-                        <input value="{{ $user->username }}" type="text" class="form-control" name="username" placeholder="Usuário" required>
+                        <input value="" type="text" class="form-control" name="username" placeholder="Usuário" required>
                         @if ($errors->has('username'))
                         <span class="text-danger text-left">{{ $errors->first('username') }}</span>
                         @endif
@@ -75,8 +75,8 @@
                     <div class="mb-3  col-3">
                         <label for="block_mail" class="form-label">Desligar aviso e-mail</label>
                         <select class="form-control" name="block_mail" id="block_mail">
-                            <option value="0"  @if($user->block_mail == 1) selected @endif>Não</option>
-                            <option value="1"  @if($user->block_mail == 1) selected @endif>Sim</option>
+                            <option value="0">Não</option>
+                            <option value="1">Sim</option>
                         </select>
                         @if ($errors->has('block_mail'))
                         <span class="text-danger text-left">{{ $errors->first('block_mail') }}</span>
@@ -89,9 +89,7 @@
                         <select class="form-control" name="role">
                             @if($roles->count() > 1) <option value="">Selecione o grupo</option>@endif
                             @foreach($roles as $role)
-                            <option value="{{ $role->id }}" {{ in_array($role->name, $userRole)
-                                        ? 'selected'
-                                        : '' }}>{{ $role->name }}</option>
+                            <option value="{{ $role->id }}">{{ $role->name }}</option>
                             @endforeach
                         </select>
                         @if ($errors->has('role'))
@@ -99,7 +97,7 @@
                         @endif
                     </div>
                     @endif
-                    
+
                     <div class="form-group mb-2 col-md-6">
                         <label for="exampleInputPasswordCard4">Senha</label>
                         <div class="input-group">
@@ -122,7 +120,7 @@
                         </div>
                     </div>
 
-                    <div class="form-check mb-1">
+                    <div class="form-check mb-1 col-md-12">
                         <input class="form-check-input" type="checkbox" value="" name="lgpd_accept" id="lgpd_accept" required="required">
                         <label class="form-check-label" for="lgpd_accept">
                             Eu aceito as regras do serviço <a href="#" class="text-primary font-weight-bold"> termos e condições</a>
@@ -132,7 +130,7 @@
                     <div class="row">
 
                         <div class="mb-3  col-6">
-                            <button type="submit" class="btn btn-primary w-50">Atualizar</button>
+                            <button type="submit" class="btn btn-primary w-50">Criar</button>
                         </div>
 
                     </div>

@@ -123,7 +123,7 @@
                             </div>
                         </div>
 
-                        <div class="form-check mb-1">
+                        <div class="form-check mb-1 col-md-12">
                             <input class="form-check-input" type="checkbox" value="" name="lgpd_accept" id="lgpd_accept" required="required">
                             <label class="form-check-label" for="lgpd_accept">
                                 Eu aceito as regras do serviço <a href="#" class="text-primary font-weight-bold"> termos e condições</a>
