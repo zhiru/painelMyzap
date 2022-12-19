@@ -101,8 +101,6 @@
                     </div>
                     @endif
 
-                    <div class="form-group row">
-                        <!-- Form -->
                         <div class="form-group mb-2 col-md-6">
                             <label for="exampleInputPasswordCard4">Senha</label>
                             <div class="input-group">
@@ -113,8 +111,7 @@
                                 @endif
                             </div>
                         </div>
-                        <!-- End of Form -->
-                        <!-- Form -->
+
                         <div class="form-group mb-2 col-md-6">
                             <label for="exampleInputPasswordCard4">Confirma senha</label>
                             <div class="input-group">
@@ -125,14 +122,13 @@
                                 @endif
                             </div>
                         </div>
-                        <!-- End of Form -->
+
                         <div class="form-check mb-1">
                             <input class="form-check-input" type="checkbox" value="" name="lgpd_accept" id="lgpd_accept" required="required">
                             <label class="form-check-label" for="lgpd_accept">
                                 Eu aceito as regras do serviço <a href="#" class="text-primary font-weight-bold"> termos e condições</a>
                             </label>
                         </div>
-                    </div>
 
                     <div class="row">
 
