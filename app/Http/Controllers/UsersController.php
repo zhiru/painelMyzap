@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Models\Sessions;
 use App\Models\User;
-use App\Models\Roles;
 use Illuminate\Http\Request;
 use Spatie\Permission\Models\Role;
 use App\Http\Requests\StoreUserRequest;
@@ -66,7 +65,7 @@ class UsersController extends Controller
         $request->user()->can('usuarios-create') == false ? abort(403) : '';
 
         return view('users.create', [
-            'roles' => Roles::all()
+            'roles' => \Spatie\Permission\Models\Role::all();
         ]);
     }
 
