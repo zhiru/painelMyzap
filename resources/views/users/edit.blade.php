@@ -88,7 +88,7 @@
                     <div class="mb-3  col-3">
                         <label for="role" class="form-label">Plano</label>
                         <select class="form-control" name="role">
-                            @if($roles->count() > 1) <option value="">Selecione o grupo</option>@endif
+                            <option value="">Selecione o grupo</option>
                             @foreach($roles as $role)
                             <option value="{{ $role->id }}" {{ in_array($role->name, $userRole)
                                         ? 'selected'
